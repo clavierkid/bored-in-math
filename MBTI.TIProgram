@@ -1,3 +1,4 @@
+#If you're familiar with the MBTI personality type, this is a simple version of that.
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
@@ -10,7 +11,113 @@
 			<key>row</key>
 			<integer>1</integer>
 			<key>stringValue</key>
-			<string>Disp "ANSWER FROM –5"Disp "TO 5, 5=AGREE"0→I0→N0→T0→P0→ADisp "1.You live in"Disp "the present."Prompt A–A+N→NDisp "2.You are often"Disp "the first to"Disp "offer emotion-"Disp "al support."Prompt A–A+T→TDisp "3.You like to"Disp "socialize."Prompt A–A+I→IDisp "4.You are fairly"Disp "organized."Prompt A–A+P→PDisp "5.When making"Disp "decisions, you"Disp "follow your"Disp "heart."Prompt A–A+T→TDisp "6.You often ig-"Disp "nore or forget"Disp "about your"Disp "surroundings."Prompt AA+N→NDisp "7.You like to"Disp "plan things out."Prompt A–A+P→PDisp "8.You prefer"Disp "solitary act-"Disp "ivities to"Disp "social events."Prompt AA+I→IDisp "9.Ideas are"Disp "often more im-"Disp "portant than"Disp "real things."Prompt AA+N→NDisp "10.Your mood"Disp "can change very"Disp "quickly."Prompt A–A+T→TDisp "11.You are often"Disp "indecisive."Prompt AA+P→PDisp "12.You are more"Disp "pragmatic than"Disp "visionary."Prompt A–A+N→NDisp "13. You have no"Disp "difficulties in"Disp "coming up with"Disp "a schedule and"Disp "sticking to it."Prompt A–A+P→PDisp "14.You dislike"Disp "crowds."Prompt AA+I→IDisp "15.You like to"Disp "be with people."Prompt A–A+I→IDisp "16.You are al-"Disp "most always on"Disp "time."Prompt A–A+P→PDisp "17.You like"Disp "to share your"Disp "emotions."Prompt A–A+T→TDisp "18.Emotional"Disp "movies can"Disp "easily affect"Disp "your mood."Prompt A-A+T→TDisp "19.Social"Disp "interaction"Disp "is tiring."Prompt AA+I→IDisp "20.You are often"Disp "lost in thought."Prompt AA+N→N</string>
+			<string>Disp "ANSWER FROM –5"
+Disp "TO 5, 5=AGREE"
+0→I
+0→N
+0→T
+0→P
+0→A
+Disp "1.You live in"
+Disp "the present."
+Prompt A
+–A+N→N
+Disp "2.You are often"
+Disp "the first to"
+Disp "offer emotion-"
+Disp "al support."
+Prompt A
+–A+T→T
+Disp "3.You like to"
+Disp "socialize."
+Prompt A
+–A+I→I
+Disp "4.You are fairly"
+Disp "organized."
+Prompt A
+–A+P→P
+Disp "5.When making"
+Disp "decisions, you"
+Disp "follow your"
+Disp "heart."
+Prompt A
+–A+T→T
+Disp "6.You often ig-"
+Disp "nore or forget"
+Disp "about your"
+Disp "surroundings."
+Prompt A
+A+N→N
+Disp "7.You like to"
+Disp "plan things out."
+Prompt A
+–A+P→P
+Disp "8.You prefer"
+Disp "solitary act-"
+Disp "ivities to"
+Disp "social events."
+Prompt A
+A+I→I
+Disp "9.Ideas are"
+Disp "often more im-"
+Disp "portant than"
+Disp "real things."
+Prompt A
+A+N→N
+Disp "10.Your mood"
+Disp "can change very"
+Disp "quickly."
+Prompt A
+–A+T→T
+Disp "11.You are often"
+Disp "indecisive."
+Prompt A
+A+P→P
+Disp "12.You are more"
+Disp "pragmatic than"
+Disp "visionary."
+Prompt A
+–A+N→N
+Disp "13. You have no"
+Disp "difficulties in"
+Disp "coming up with"
+Disp "a schedule and"
+Disp "sticking to it."
+Prompt A
+–A+P→P
+Disp "14.Crowds stress"
+Disp "you out."
+Prompt A
+A+I→I
+Disp "15.You like to"
+Disp "be with people."
+Prompt A
+–A+I→I
+Disp "16.You are al-"
+Disp "most always on"
+Disp "time."
+Prompt A
+–A+P→P
+Disp "17.You like"
+Disp "to share your"
+Disp "emotions."
+Prompt A
+–A+T→T
+Disp "18.Emotional"
+Disp "movies can"
+Disp "easily affect"
+Disp "your mood."
+Prompt A
+-A+T→T
+Disp "19.Social"
+Disp "interaction"
+Disp "is tiring."
+Prompt A
+A+I→I
+Disp "20.You are often"
+Disp "lost in thought."
+Prompt A
+A+N→N</string>
 		</dict>
 	</array>
 	<key>device name</key>
