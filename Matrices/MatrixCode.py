@@ -1,13 +1,28 @@
 import numpy as np
-
+import numpy.linalg
 alphabet = [" ","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
+
+mode = input("Encode or decode? (e/d)")
+if mode.lower() == "e":
+  decode = False
+elif mode.lower() == "d":
+  decode = True
+else:
+  print("you done messed up")
+  exit()
 
 #Other sizes would also be nice
 print("[a b c\nd e f\ng h i]")
 encodeInput = input("Please insert your 3x3 encoding matrix in form (a b c; d e f; g h i):")
 encodeMatrix = np.matrix(encodeInput)
+decodeMatrix = numpy.linalg.inv(encodeMatrix)
+print(encodeMatrix)
+print(decodeMatrix)
 
-dMessage = input("Enter your message (letters and spaces only): ")
+if decode == False:
+  dMessage = input("Enter your plaintext message (letters and spaces only): ")
+elif decode == True:
+  dMessage = input("Enter your encoded text: ")
 dMessage = dMessage.lower()
 
 encoded = []
@@ -37,17 +52,18 @@ del(encoded[3:])
 
 # print("\n\nAfter:",encoded)
 encoded = np.matrix(encoded)
-final = encodeMatrix * encoded
+final = decodeMatrix * encoded
 final = final%27
 
 print("Your original matrix:\n",encoded)
-print("Your encoded matrix:\n",final)
+print("Your decoded matrix:\n",final)
 
 message = []
 final = final.tolist()
 
 for j in range(len(final[0])):
   for i in range(len(final)):
+    final[i][j] = int(final[i][j])
     message.append(alphabet[final[i][j]])
 
-print("Your final encoded message is:","".join(message))
+print("Your final decoded message is:","".join(message))
