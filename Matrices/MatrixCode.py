@@ -3,6 +3,7 @@ import numpy as np
 alphabet = [" ","a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 
 #Other sizes would also be nice
+print("[a b c\nd e f\ng h i]")
 encodeInput = input("Please insert your 3x3 encoding matrix in form (a b c; d e f; g h i):")
 encodeMatrix = np.matrix(encodeInput)
 
