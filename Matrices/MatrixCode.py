@@ -66,6 +66,8 @@ final = final.tolist()
 
 for j in range(len(final[0])):
   for i in range(len(final)):
+    if round(final[i][j]) == 27:
+      final[i][j] = 0
     print(i,j,final[i][j],message,"\n")
     final[i][j] = round(final[i][j])
     message.append(alphabet[final[i][j]])
@@ -74,3 +76,9 @@ if decode == True:
   print("Your final decoded message is:","".join(message))
 elif decode == False:
   print("Your final encoded message is:","".join(message))
+
+'''
+Known bugs:
+• There seems to be something up with the adding of 0s, but it works for now
+• gets an indexing error when the inverse matrix has fractions???
+'''
