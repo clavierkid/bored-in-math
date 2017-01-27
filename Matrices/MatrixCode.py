@@ -68,7 +68,6 @@ for j in range(len(final[0])):
   for i in range(len(final)):
     if round(final[i][j]) == 27:
       final[i][j] = 0
-    print(i,j,final[i][j],message,"\n")
     final[i][j] = round(final[i][j])
     message.append(alphabet[final[i][j]])
 
@@ -80,5 +79,5 @@ elif decode == False:
 '''
 Known bugs:
 • There seems to be something up with the adding of 0s, but it works for now
-• gets an indexing error when the inverse matrix has fractions???
+• Decode messes up when inverse has fractions. Multiplication seems fine, no idea what the problem is
 '''
